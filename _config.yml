@@ -32,10 +32,8 @@ keywords: cybersecurity, artificial intelligence, AI security, cybersecurity ana
 
 lang: en
 
-# Temporary favicon until we prepare the WASP logo
-icon: 🐝
-
-apple_touch_icon:
+icon: favicon-32x32.png
+apple_touch_icon: favicon-180x180.png
 
 # -----------------------------------------------------------------------------
 # Website URL
