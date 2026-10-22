@@ -1,0 +1,22 @@
+
+/* WASP Lab global color theme */
+
+:root {
+  --global-theme-color: #005596;
+  --global-hover-color: #003b70;
+  --global-hover-text-color: #ffffff;
+  --global-text-color: #222222;
+  --wasp-yellow: #f4c542;
+}
+
+/* Preserve WASP blue as the accent in dark mode */
+html[data-theme="dark"] {
+  --global-theme-color: #70b9ed;
+  --global-hover-color: #005596;
+  --global-hover-text-color: #ffffff;
+}
+
+/* Navbar title */
+.wasp-navbar-title strong {
+  color: #005596 !important;
+}

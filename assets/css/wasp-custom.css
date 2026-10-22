@@ -1,0 +1,140 @@
+
+/* WASP Lab homepage hero */
+
+.wasp-hero {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 3.5rem 2.5rem;
+  margin: 1rem 0 3rem;
+  background: #0b1932;
+  border-radius: 16px;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.wasp-eyebrow {
+  color: #f4c542;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.wasp-hero h1 {
+  color: #ffffff;
+  font-size: clamp(2rem, 3.5vw, 3.3rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 1.25rem 0;
+}
+
+.wasp-hero h1 span {
+  color: #f4c542;
+}
+
+.wasp-hero p {
+  color: #d5dfef;
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 560px;
+}
+
+.wasp-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.wasp-hero-actions a {
+  display: inline-block;
+  padding: 0.75rem 1.1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.wasp-hero-actions a:hover {
+  transform: translateY(-2px);
+}
+
+.wasp-primary-btn {
+  background: #f4c542;
+  color: #0b1932 !important;
+}
+
+.wasp-primary-btn:hover {
+  background: #ffdc65;
+}
+
+.wasp-secondary-btn {
+  border: 1px solid #8193b1;
+  color: #ffffff !important;
+}
+
+.wasp-secondary-btn:hover {
+  background: #263e67;
+}
+
+.wasp-hero-visual {
+  min-height: 260px;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.wasp-hero-logo {
+  display: block;
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  object-fit: contain;
+}
+
+.wasp-visual-caption {
+  color: #0b1932;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.wasp-visual-mark {
+  color: #f4c542;
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .wasp-hero {
+    grid-template-columns: 1fr;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .wasp-hero-visual {
+    min-height: 180px;
+  }
+
+  .wasp-visual-mark {
+    font-size: 5rem;
+  }
+}
+
+/* Hide al-folio's default heading on the WASP homepage */
+body:has(.wasp-hero) .post-header {
+  display: none;
+}
+
+.wasp-hero {
+  margin-top: 0;
+}
