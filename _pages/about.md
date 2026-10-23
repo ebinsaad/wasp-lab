@@ -66,7 +66,7 @@ latest_posts:
 
   <!-- Research Theme 1 -->
   <div class="col">
-    <a href="{{ '/research/' | relative_url }}" class="wasp-research-link">
+    <a href="{{ '/research/intelligent-cybersecurity/' | relative_url }}" class="wasp-research-link">
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">
