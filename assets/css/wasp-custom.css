@@ -350,3 +350,76 @@ body:has(.wasp-hero) .post-header {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================================
+   WASP LAB — RESEARCH THEME PAGES
+   ========================================= */
+
+.wasp-theme-hero {
+  background: #0b1932;
+  color: #ffffff;
+  padding: 3rem 2.5rem;
+  border-radius: 16px;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.wasp-theme-hero h1 {
+  color: #ffffff;
+  font-size: clamp(1.9rem, 3vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.wasp-theme-hero h1 span {
+  color: #f4c542;
+}
+
+.wasp-theme-hero p {
+  color: #d5dfef;
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 760px;
+  margin-bottom: 0;
+}
+
+/* Agentic security failure classes */
+.wasp-failure-class-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.wasp-failure-class-card {
+  min-width: 0;
+  padding: 1.5rem;
+  background: #f3f6fa;
+  border: 1px solid #dce4ef;
+  border-radius: 12px;
+}
+
+.wasp-failure-class-card h3 {
+  color: #0b1932;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0.75rem 0;
+}
+
+.wasp-failure-class-card p {
+  color: #34445c;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .wasp-theme-hero {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .wasp-failure-class-grid {
+    grid-template-columns: 1fr;
+  }
+}
