@@ -23,7 +23,7 @@
 
 .wasp-hero h1 {
   color: #ffffff;
-  font-size: clamp(2rem, 3.5vw, 3.3rem);
+  font-size: clamp(2rem, 3vw, 2.7rem);
   font-weight: 800;
   line-height: 1.15;
   margin: 1.25rem 0;
@@ -31,6 +31,13 @@
 
 .wasp-hero h1 span {
   color: #f4c542;
+}
+
+/* Responsive headline for smaller screens */
+@media (max-width: 768px) {
+  .wasp-hero h1 {
+    font-size: 2.1rem;
+  }
 }
 
 .wasp-hero p {
@@ -137,4 +144,220 @@ body:has(.wasp-hero) .post-header {
 
 .wasp-hero {
   margin-top: 0;
+}
+
+/* WASP Lab homepage research card headings */
+.wasp-research h5.card-title {
+  font-size: 1.2rem !important;
+  font-weight: 600;
+  line-height: 1.3;
+}
+/* WASP Lab research cards */
+.wasp-research .card-body .card-title {
+  font-size: 1.15rem !important;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.85rem;
+}
+
+.wasp-research .card-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+
+/* Clickable research cards */
+.wasp-research-link {
+  display: block;
+  height: 100%;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.wasp-research-link:hover {
+  text-decoration: none !important;
+}
+
+.wasp-research-link .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wasp-research-link:hover .card,
+.wasp-research-link:focus-visible .card {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(11, 25, 50, 0.15);
+}
+
+.wasp-research-link:focus-visible {
+  outline: 2px solid #005596;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+
+/* =========================================
+   WASP LAB — RESEARCH PAGE
+   ========================================= */
+
+/* Research vision banner */
+.wasp-research-hero {
+  background: #0b1932;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 3.5rem 2.5rem;
+  margin: 0 0 2.5rem;
+}
+
+.wasp-research-hero h1 {
+  color: #ffffff;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 1.25rem 0;
+}
+
+.wasp-research-hero h1 span {
+  color: #f4c542;
+}
+
+.wasp-research-hero p {
+  color: #d5dfef;
+  max-width: 750px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.wasp-research-hero strong {
+  color: #ffffff;
+}
+
+/* Failure evolution diagram */
+.wasp-failure-evolution {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+
+.wasp-failure-stage {
+  min-width: 0;
+  background: #f3f6fa;
+  border: 1px solid #dce4ef;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+
+.wasp-failure-stage h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #0b1932;
+  margin: 0.75rem 0;
+}
+
+.wasp-failure-stage p {
+  color: #34445c;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.wasp-stage-number {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #23558c;
+}
+
+.wasp-future-stage {
+  background: #fff9e5;
+  border-color: #e8ce73;
+}
+
+.wasp-evolution-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b28a12;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+/* Methodology workflow */
+.wasp-methodology-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+.wasp-method-card {
+  background: #0b1932;
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-width: 0;
+}
+
+.wasp-method-number {
+  display: inline-block;
+  color: #f4c542;
+  font-size: 0.75rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.wasp-method-card h3 {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.wasp-method-card p {
+  color: #d5dfef;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.wasp-methodology-note {
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  margin-bottom: 1.5rem;
+}
+
+/* Research theme links */
+.wasp-card-more {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #23558c;
+}
+
+/* Responsive layout */
+@media (max-width: 992px) {
+  .wasp-methodology-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .wasp-research-hero {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .wasp-failure-evolution {
+    grid-template-columns: 1fr;
+  }
+
+  .wasp-evolution-arrow {
+    transform: rotate(90deg);
+    min-height: 1.5rem;
+  }
+
+  .wasp-methodology-grid {
+    grid-template-columns: 1fr;
+  }
 }

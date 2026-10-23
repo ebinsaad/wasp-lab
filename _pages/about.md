@@ -29,13 +29,11 @@ latest_posts:
       WICKED APPLIED SYSTEMS PRACTICES
     </span>
     <h1>
-      Securing AI.<br>
-      <span>Advancing Cybersecurity.</span>
+      Understanding Failures.<br>
+      <span>Engineering Resilience.</span>
     </h1>
     <p>
-      WASP Lab advances the security, reliability, and resilience
-      of intelligent systems through research at the intersection
-      of cybersecurity, artificial intelligence, and systems engineering.
+    WASP Lab advances Reliable, Dependable, and Resilient (RDR) Computing by investigating failures in emerging computing technologies and developing methods to characterize, mitigate, and validate system security, trustworthiness, and resilience.
     </p>
     <div class="wasp-hero-actions">
       <a href="#our-research" class="wasp-primary-btn">
@@ -63,48 +61,65 @@ latest_posts:
 ## Our Research
 {: #our-research }
 
-<div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
 
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-2 wasp-research">
+
+  <!-- Research Theme 1 -->
   <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">AI for Cybersecurity</h5>
-        <p class="card-text">
-          Developing intelligent methods for threat detection,
-          cyber threat intelligence, security analytics,
-          and autonomous cyber defense.
-        </p>
+    <a href="{{ '/research/' | relative_url }}" class="wasp-research-link">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">
+            Intelligent Cybersecurity &amp; Security Operations
+          </h5>
+          <p class="card-text">
+            Advancing cybersecurity through intelligent threat detection,
+            security analytics, cyber threat intelligence, and AI-driven
+            automation of security operations.
+          </p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 
+  <!-- Research Theme 2 -->
   <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">Security of AI</h5>
-        <p class="card-text">
-          Investigating vulnerabilities, adversarial threats,
-          and trustworthy operation of machine learning,
-          large language models, and agentic AI systems.
-        </p>
+    <a href="{{ '/research/' | relative_url }}" class="wasp-research-link">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">
+            Trustworthy &amp; Secure AI
+          </h5>
+          <p class="card-text">
+            Investigating vulnerabilities, adversarial threats, and
+            reliability challenges in machine learning, large language
+            models, and autonomous AI agents.
+          </p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 
+  <!-- Research Theme 3 -->
   <div class="col">
-    <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">Resilient Autonomous Systems</h5>
-        <p class="card-text">
-          Advancing the security, dependability, and resilience
-          of cyber-physical and autonomous systems through
-          experimental security and chaos engineering.
-        </p>
+    <a href="{{ '/research/' | relative_url }}" class="wasp-research-link">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">
+            Resilience Engineering &amp; Autonomous Systems
+          </h5>
+          <p class="card-text">
+            Understanding failures and developing testing, mitigation,
+            and recovery approaches for intelligent systems and
+            cyber-physical platforms.
+          </p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 
 </div>
+
 
 ---
 
