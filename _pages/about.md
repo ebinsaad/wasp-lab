@@ -84,7 +84,7 @@ latest_posts:
 
   <!-- Research Theme 2 -->
   <div class="col">
-    <a href="{{ '/research/' | relative_url }}" class="wasp-research-link">
+    <a href="{{ '/research/trustworthy-ai/' | relative_url }}" class="wasp-research-link">
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">
@@ -102,7 +102,7 @@ latest_posts:
 
   <!-- Research Theme 3 -->
   <div class="col">
-    <a href="{{ '/research/' | relative_url }}" class="wasp-research-link">
+    <a href="{{ '/research/resilience-engineering/' | relative_url }}" class="wasp-research-link">
       <div class="card h-100">
         <div class="card-body">
           <h5 class="card-title">
