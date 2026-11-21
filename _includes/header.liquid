@@ -4,22 +4,19 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-     
-<!-- WASP Lab Branding -->
-<a class="navbar-brand wasp-navbar-brand"
-   href="{{ '/' | relative_url }}">
+      <!-- WASP Lab Branding -->
+      <a
+        class="navbar-brand wasp-navbar-brand"
+        href="{{ '/' | relative_url }}"
+      >
+        <img
+          src="{{ '/assets/img/wasp/wasp.png' | relative_url }}"
+          alt="WASP Lab Logo"
+          class="wasp-navbar-logo"
+        >
 
-  <img
-    src="{{ '/assets/img/wasp/wasp.png' | relative_url }}"
-    alt="WASP Lab Logo"
-    class="wasp-navbar-logo"
-  >
-
-  <span class="wasp-navbar-title">
-    WASP <strong>Lab</strong>
-  </span>
-
-</a>
+        <span class="wasp-navbar-title"> WASP <strong>Lab</strong> </span>
+      </a>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed navbar-toggler-main"

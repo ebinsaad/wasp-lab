@@ -44,7 +44,7 @@ latest_posts:
       </a>
     </div>
   </div>
-  
+
 <div class="wasp-hero-visual">
   <img
     src="{{ '/assets/img/wasp/wasp.png' | relative_url }}"
@@ -59,8 +59,8 @@ latest_posts:
 </section>
 
 ## Our Research
-{: #our-research }
 
+{: #our-research }
 
 <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 wasp-research">
 
@@ -119,7 +119,6 @@ latest_posts:
   </div>
 
 </div>
-
 
 ---
 

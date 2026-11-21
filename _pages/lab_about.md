@@ -62,7 +62,6 @@ We emphasize student development, scientific independence, knowledge sharing, re
 
 Our research activities include experimental prototypes, cybersecurity testbeds, intelligent systems, and collaborative projects with academic and industry partners.
 
-
 ---
 
 ## Mentorship, Inclusion & Research Culture
@@ -88,7 +87,6 @@ We actively encourage participation from underrepresented groups in computing an
 ### Our Commitment
 
 Our goal extends beyond producing research outcomes. We aim to develop **independent, ethical, resilient, and socially responsible professionals** equipped to succeed in academia, industry, and beyond.
-
 
 ---
 
