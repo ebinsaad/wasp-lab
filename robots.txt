@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ebinsaad.github.io/wasp-lab/sitemap.xml
+Sitemap: https://wasplabs.ca/sitemap.xml
