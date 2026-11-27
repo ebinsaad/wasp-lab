@@ -39,8 +39,10 @@ apple_touch_icon: favicon-180x180.png
 # -----------------------------------------------------------------------------
 
 # Replace YOUR_USERNAME with your GitHub username
-url: https://ebinsaad.github.io
-baseurl: /wasp-lab
+#url: https://ebinsaad.github.io
+#baseurl: /wasp-lab
+url: https://wasplabs.ca
+baseurl: ""
 
 last_updated: false
 impressum_path:
