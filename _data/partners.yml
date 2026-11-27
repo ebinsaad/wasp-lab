@@ -1,0 +1,89 @@
+# Research Funding Organizations
+
+- name: "Natural Sciences and Engineering Research Council of Canada (NSERC)"
+  logo: "/assets/img/partners/nserc.png"
+  url: "https://www.nserc-crsng.gc.ca/"
+  type: "funder"
+  order: 1
+
+- name: "Mitacs"
+  logo: "/assets/img/partners/mitacs.png"
+  url: "https://www.mitacs.ca/"
+  type: "funder"
+  order: 2
+
+- name: "New Frontiers in Research Fund (NFRF)"
+  logo: "/assets/img/partners/nfrf.png"
+  url: "https://www.sshrc-crsh.gc.ca/funding-financement/nfrf-fnfr/"
+  type: "funder"
+  order: 3
+
+- name: "Ontario Centre of Innovation (OCI)"
+  logo: "/assets/img/partners/oci.png"
+  url: "https://www.oc-innovation.ca/"
+  type: "funder"
+  order: 4
+
+- name: "SCALE AI"
+  logo: "/assets/img/partners/scale-ai.png"
+  url: "https://www.scaleai.ca/"
+  type: "funder"
+  order: 5
+
+# Government Organizations
+
+- name: "Department of National Defence (DND)"
+  logo: "/assets/img/partners/dnd.png"
+  url: "https://www.canada.ca/en/department-national-defence.html"
+  type: "government"
+  order: 6
+
+- name: "National Research Council Canada (NRC)"
+  logo: "/assets/img/partners/nrc.png"
+  url: "https://nrc.canada.ca/"
+  type: "government"
+  order: 7
+
+- name: "Canadian Security Intelligence Service (CSIS)"
+  logo: "/assets/img/partners/csis.png"
+  url: "https://www.canada.ca/en/security-intelligence-service.html"
+  type: "government"
+  order: 8
+
+# Industry and Research Collaborators
+
+- name: "Scotiabank"
+  logo: "/assets/img/partners/scotiabank.png"
+  url: "https://www.scotiabank.com/"
+  type: "collaborator"
+  order: 9
+
+- name: "Cypienta"
+  logo: "/assets/img/partners/cypienta.png"
+  type: "collaborator"
+  order: 10
+
+- name: "SaferAI"
+  logo: "/assets/img/partners/saferai.png"
+  type: "collaborator"
+  order: 11
+
+- name: "RIIS"
+  logo: "/assets/img/partners/riis.png"
+  type: "collaborator"
+  order: 12
+
+- name: "ezSec Inc."
+  logo: "/assets/img/partners/ezsec.png"
+  type: "collaborator"
+  order: 13
+
+- name: "Syngoletta"
+  logo: "/assets/img/partners/syngoletta.png"
+  type: "collaborator"
+  order: 14
+
+- name: "eVeritas"
+  logo: "/assets/img/partners/everitas.png"
+  type: "collaborator"
+  order: 15

@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Research projects advancing cybersecurity, trustworthy AI, and resilient intelligent systems.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [cybersecurity, trustworthy-ai, autonomous-systems]
 horizontal: false

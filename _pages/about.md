@@ -130,3 +130,30 @@ and industry partners.
 
 Explore our [research projects]({{ '/projects/' | relative_url }})
 and [publications]({{ '/publications/' | relative_url }}).
+
+<section class="wasp-partners">
+  <h2>Research Partners & Supporters</h2>
+  <p>
+    Our research benefits from the support of funding organizations
+    and collaborations with academic, government, and industry partners.
+  </p>
+
+  <div class="wasp-partners-grid">
+    {% assign partners = site.data.partners | sort: "order" %}
+    {% for partner in partners %}
+    <a
+      class="wasp-partner"
+      href="{{ partner.url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="{{ partner.name | escape }}"
+    >
+      <img
+        src="{{ partner.logo | relative_url }}"
+        alt="{{ partner.name | escape }}"
+        loading="lazy"
+      >
+    </a>
+    {% endfor %}
+  </div>
+</section>
